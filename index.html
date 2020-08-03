@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>John Doe || Home</title>
+    <title>Alan Alemán || Inicio</title>
     <!-- font-awesome -->
     <link
       rel="stylesheet"
@@ -14,37 +14,598 @@
   </head>
   <body>
     <!-- navbar -->
-
+    <nav class="nav" id="nav"> 
+      <div class="nav-center">
+         <!--nav header-->
+         <div class="nav-header">
+           <img src="./images/logo3.png" class="nav-logo" alt="nav logo" />
+           <button class="nav-btn" id="nav-btn">
+             <i class="fas fa-bars"></i>
+           </button>
+         </div>
+         <!--nav-links-->
+         <ul class="nav-links">
+            <li>
+              <a href="index.html">inicio</a>
+            </li>
+            <li>
+              <a href="about.html">sobre mi</a>
+            </li>
+            <li>
+              <a href="projects.html">proyectos</a>
+            </li>
+            <li>
+              <a href="contact.html">contacto</a>
+            </li>
+         </ul>
+      </div>
+    </nav>
     <!-- end of navbar -->
     <!-- sidebar -->
-
+    <aside class="sidebar" id="sidebar"> 
+    <div>
+      <button class="close-btn" id="close-btn">
+       <i class="fas fa-times"></i>
+      </button>
+      <!--nav-links-->
+      <ul class="sidebar-links">
+        <li>
+          <a href="index.html">inicio</a>
+        </li>
+        <li>
+          <a href="about.html">sobre mi</a>
+        </li>
+        <li>
+          <a href="projects.html">proyectos</a>
+        </li>
+        <li>
+          <a href="contact.html">contacto</a>
+        </li>
+     </ul>
+     <!--social icons-->
+     <ul class="social-icons">
+       <li>
+         <a href="https://www.twitter.com"
+         class="social-icon">
+          <i class="fab fa-facebook"></i>
+          </a>
+       </li>
+       <li>
+        <a href="https://www.twitter.com"
+        class="social-icon">
+         <i class="fab fa-linkedin"></i>
+         </a>
+      </li>
+      <li>
+        <a href="https://www.twitter.com"
+        class="social-icon">
+         <i class="fab fa-behance"></i>
+         </a>
+      </li>
+      <li>
+        <a href="https://www.twitter.com"
+        class="social-icon">
+         <i class="fab fa-github"></i>
+         </a>
+      </li>
+      <li>
+        <a href="https://www.twitter.com"
+        class="social-icon">
+         <i class="fab fa-instagram"></i>
+         </a>
+      </li>
+     </ul>
+    </div>
+    </aside>
     <!-- end of sidebar -->
     <!-- header -->
-
+    <header class="hero">
+      <div class="section-center hero-center">
+        <article class="hero-info">
+          <div class="underline"></div>
+          <h1>Soy Alan</h1>
+          <h4>Freelance: Desarrollador Web UI/UX</h4>
+          <a href="contact.html" class="btn 
+          hero-btn">¡contrátame!</a>
+          <!--social icons-->
+     <ul class="social-icons hero-icons">
+      <li>
+        <a href="https://www.twitter.com"
+        class="social-icon">
+         <i class="fab fa-facebook"></i>
+         </a>
+      </li>
+      <li>
+       <a href="https://www.twitter.com"
+       class="social-icon">
+        <i class="fab fa-linkedin"></i>
+        </a>
+     </li>
+     <li>
+       <a href="https://www.twitter.com"
+       class="social-icon">
+        <i class="fab fa-behance"></i>
+        </a>
+     </li>
+     <li>
+       <a href="https://www.twitter.com"
+       class="social-icon">
+        <i class="fab fa-github"></i>
+        </a>
+     </li>
+     <li>
+       <a href="https://www.twitter.com"
+       class="social-icon">
+        <i class="fab fa-instagram"></i>
+        </a>
+     </li>
+    </ul>
+        </article>
+        <article class="hero-img">
+          <img src="./images/hero-img.png" 
+          class="hero-photo" alt="alan aleman"/>
+        </article>
+      </div>
+    </header>
     <!-- end of header -->
     <!-- about -->
-
+    <section class="section about">
+      <div class="section-center about-center"> 
+        <!--about img-->
+        <article class="about-img">
+          <img 
+          src="./images/about3.png" 
+          class="hero-photo" 
+          alt="about img"
+          />
+        </article>
+        <!--about info-->
+        <article class="about-info">
+          <!--section title-->
+          <div class="section-title about-title">
+            <h2>Sobre mi</h2>
+            <div class="underline"></div>
+          </div>
+          <!--end of section title-->
+          <p>Soy egresado de la carrera de Tecnologías de la Información. Actualmente brindo servicios
+            personalizados, justos y completos que les permita cambiar la publicidad y forma de interacción de 
+            su negocio u organización con los usuarios, para lograr con ello un estupendo posicionamiento en 
+            el público respecto a los crecientes cambios tecnológicos.
+          </p>
+          <p>Analizo tu idea para hacer de ella algo novedoso, lo que más me preocupa es que usted tenga la 
+            certeza y confíe plenamente en que nuestro servicio cumplirá con sus expectativas.</p>
+             <a href="about.html" class="btn">sobre mi</a>
+        </article>
+      </div>
+    </section>
     <!-- end of about -->
     <!-- services -->
-
+    <section class="section bg-grey">
+    <!--section title-->
+    <div class="section-title">
+      <h2>servicios</h2>
+      <div class="underline"></div>
+    </div>
+    <!--end of section title-->
+    <div class="services-center section-center">
+      <!--single service-->
+      <article class="service">
+        <i class="fas fa-code service-icon"></i>
+        <h4>desarrollo web</h4>
+        <div class="underline"></div>
+        <p>Me encargo de poner su negocio en línea. Todos los sitios web cumplen los 
+          estándares de SEO (Search Engine Optimization) que permiten su posicionamiento en los motores 
+          de búsqueda, además de que son multiplataforma (responsivos) y garantizan una experiencia 
+          agradable e intuitiva.</p>
+      </article>
+      <!--end of single service-->
+      <!--single service-->
+      <article class="service">
+        <i class="fab fa-sketch service-icon"></i>
+        <h4>community managment</h4>
+        <div class="underline"></div>
+        <p>Manejo sus redes sociales, creando campañas digitales segmentadas geográficamente y dirigidas 
+          a los gustos de su mercado.</p>
+      </article>
+      <!--end of single service-->
+      <!--single service-->
+      <article class="service">
+        <i class="fa fa-server service-icon"></i>
+        <h4>soporte técnico</h4>
+        <div class="underline"></div>
+        <p>Brindo mantenimiento preventivo y correctivo a sus equipos de cómputo. Me encargo de corregir 
+          las fallas existentes y de prevenirlas, además cuento con soporte técnico remoto. 
+          Soluciono desde problemas comunes como la instalación de impresoras, hasta problemas complejos 
+          como los relacionados con redes y servidores.</p>
+      </article>
+      <!--end of single service-->
+    </div>
+    </section>
     <!-- end of services -->
     <!-- projects -->
-
+    <section class="section projects">
+    <!--section title-->
+    <div class="section-title">
+      <h2>Proyectos</h2>
+      <div class="underline"></div>
+      <p class="projects-text">
+        Te presento alguno de mis últimos trabajos que he desarrollado por medio del frontend y backend
+        para brindarle a los clientes mejores oportunidades de sus empresas.
+      </p>
+    </div>
+    <!--end of section title-->
+    <div class="section-center projects-center">
+      <!--single project-->
+      <a href="projects.html" class="project-1">
+      <article class="project">
+       <img 
+       src="./images/proyecto1.png"
+       alt="single project"
+       class="project-img"
+       /> 
+       <div class="project-info">
+        <h4>Marcela Studio</h4>
+        <p>Marcela González Bustos</p>
+       </div>
+      </article>
+      </a>
+      <!--end of single project-->
+       <!--single project-->
+       <a href="projects.html" class="project-2">
+        <article class="project">
+         <img 
+         src="./images/proyecto2.png"
+         alt="single project"
+         class="project-img"
+         /> 
+         <div class="project-info">
+          <h4>Sada Service</h4>
+          <p>Compañia de servicios informáticos</p>
+         </div>
+        </article>
+        </a>
+        <!--end of single project-->
+         <!--single project-->
+      <a href="projects.html" class="project-3">
+        <article class="project">
+         <img 
+         src="./images/proyecto3.png"
+         alt="single project"
+         class="project-img"
+         /> 
+         <div class="project-info">
+          <h4>Restaurant Molina</h4>
+          <p>Arturo Molina G.</p>
+         </div>
+        </article>
+        </a>
+        <!--end of single project-->
+         <!--single project-->
+      <a href="projects.html" class="project-4">
+        <article class="project">
+         <img 
+         src="./images/proyecto4.png"
+         alt="single project"
+         class="project-img"
+         /> 
+         <div class="project-info">
+          <h4>Viajes de León</h4>
+          <p>Saul de León</p>
+         </div>
+        </article>
+        </a>
+        <!--end of single project-->
+    </div>
+    </section>
     <!-- end of projects -->
     <!-- connect -->
-
+    <section class="connect">
+      <video 
+        controls 
+        autoplay 
+        muted 
+        loop 
+        class="video-container" 
+        poster="./images/project-1.jpeg"
+        > 
+        <source src="./videos/connect.mp4" type="video/mp4"/>
+      </video>
+      <div class="video-banner">
+        <!--section title-->
+        <div class="section-title">
+        <h2>Mantegámonos en contacto</h2>
+        <div class="underline"></div>
+        </div>
+        <!--end of section title -->
+        <p class="video-text">
+          "Ideas más allá del software"
+        </p>
+        <a href="contact.html" class="btn">Contáctame</a>
+      </div>
+    </section>
     <!-- end of connect -->
     <!-- skills -->
-
+    <section class="section skills">
+    <!--section title-->
+    <div class="section-title">
+    <h2>Habilidades</h2>
+    <div class="underline"></div>
+    </div>
+    <!--end of section title-->
+    <div class="section-center skills-center">
+    <article>
+      <h3>front end</h3>
+      <!--single skill-->
+      <div class="skill">
+       <p>HTML/CSS</p>
+       <div class="skill-container">
+         <div class="skill-value value-90"></div>
+        <p class="skill-text skill-text-90">
+          90%
+        </p>
+       </div>
+      </div>
+      <!--end of single skill-->
+       <!--single skill-->
+       <div class="skill">
+        <p>JavaScript</p>
+        <div class="skill-container">
+          <div class="skill-value value-90"></div>
+         <p class="skill-text skill-text-70">
+           90%
+         </p>
+        </div>
+       </div>
+       <!--end of single skill-->
+        <!--single skill-->
+        <div class="skill">
+          <p>React y Gatsby</p>
+          <div class="skill-container">
+            <div class="skill-value value-70"></div>
+           <p class="skill-text skill-text-80">
+             70%
+           </p>
+          </div>
+         </div>
+         <!--end of single skill-->
+    </article>
+    <article>
+      <h3>back end</h3>
+      <!--single skill-->
+      <div class="skill">
+       <p>Nodejs</p>
+       <div class="skill-container">
+         <div class="skill-value value-90"></div>
+        <p class="skill-text skill-text-90">
+          90%
+        </p>
+       </div>
+      </div>
+      <!--end of single skill-->
+       <!--single skill-->
+       <div class="skill">
+        <p>PHP</p>
+        <div class="skill-container">
+          <div class="skill-value value-70"></div>
+         <p class="skill-text skill-text-70">
+           70%
+         </p>
+        </div>
+       </div>
+       <!--end of single skill-->
+        <!--single skill-->
+        <div class="skill">
+          <p>Python</p>
+          <div class="skill-container">
+            <div class="skill-value value-60"></div>
+           <p class="skill-text skill-text-60">
+             60%
+           </p>
+          </div>
+         </div>
+         <!--end of single skill-->
+    </article>
+    </div>
+    </section>
     <!-- end of skills -->
     <!-- timeline -->
-
+    <section class="section timeline">
+      <!--section title-->
+      <div class="section-title">
+        <h2>Mi linea de tiempo</h2>
+        <div class="underline"></div>
+      </div>
+      <!--end of section title-->
+      <div class="section-center timeline-center">
+        <!--single time line item-->
+        <article class="timeline-item"> 
+          <h4>2020</h4>
+          <p><strong>Analista de Negocios</strong></p>
+          <p>Realizar ánalisis en base a requerimientos del cliente.</p>
+          <p>Dar seguimiento a nuevos proyectos internos de la empresa mediante metodología BABOK.</p>
+          <span class="number">
+            1
+          </span>
+        </article>
+        <!--end od single time line item-->
+         <!--single time line item-->
+         <article class="timeline-item"> 
+          <h4>2019</h4>
+          <p><strong>Analista de procesos</strong></p>
+          <p>Analizar la factibilidad de lo que se plasma en el requerimiento del cliente</p>
+          <p>Explicar y resolver dudas al área de fabrica en cuanto el requerimiento.</p>
+          <p>Dar seguimiento del proceso para la implementación a producción.</p>
+          <span class="number">
+            2
+          </span>
+        </article>
+        <!--end od single time line item-->
+         <!--single time line item-->
+         <article class="timeline-item"> 
+          <h4>2018/2017</h4>
+          <p><strong>Ingeniero de datos maestros</strong></p>
+          <p>Dar de alta en SAP ERP todas las piezas de acero fabricadas en la empresa.</p>
+          <p>Creación de listas de materiales y hoja de ruta de cada PT</p>
+          <p>Creación de macros para gestionar la información de cada PT.</p>
+          <span class="number">
+            3
+          </span>
+        </article>
+        <!--end od single time line item-->
+         <!--single time line item-->
+         <article class="timeline-item"> 
+          <h4>2016</h4>
+          <p><strong>Practicante de sistemas</strong></p>
+          <p>Brindar soporte técnico a usuarios en sitio y remotamente.</p>
+          <p>Configuración de redes inalambricas.</p>
+          <p>Mantenimiento de equipos de computo e impresoras.</p>
+          <p>Llevar un inventario de todos los equipos asignados para cada usuario.</p>
+          <span class="number">
+            4
+          </span>
+        </article>
+        <!--end od single time line item-->
+      </div>
+    </section>
     <!--end of  timeline -->
     <!-- blog -->
-
+    <section class="section blog">
+     <!--section title-->
+     <div class="section-title">
+       <h2>Blog</h2>
+       <div class="underline"></div>
+     </div>
+     <!--end of section title-->
+     <div class="section-center blog-center">
+       <!--single article-->
+       <div class="card">
+         <!--front of card-->
+         <div class="card-side card-front">
+           <img src="./images/blog1.jpg" alt="">
+           <div class="card-info">
+           <h4>Generación de lenguaje natural</h4>
+           <p>La generación de lenguaje natural es una sub-disciplina de la IA que convierte los datos en 
+             texto, lo cual permite a las computadoras comunicar ideas con una precisión impresionante. </p>
+            <div class="card-footer">
+             <img src="./images/about3.png"
+             alt="author image" />
+             <p>5 min</p>
+            </div>
+           </div>
+         </div>
+         <!--card back-->
+         <div class="card-side card-back">
+          <button class="btn">Leer más</button>
+         </div>
+       </div>
+       <!--end of single article-->
+        <!--single article-->
+        <div class="card">
+          <!--front of card-->
+          <div class="card-side card-front">
+            <img src="./images/blog2.jpg" alt="">
+            <div class="card-info">
+            <h4>Machine learning</h4>
+            <p>El Machine learning (ML) es una subdisciplina de las ciencias de la computación y una rama de 
+              inteligencia artificial (IA). Su objetivo es desarrollar técnicas que permitan a las 
+              computadoras aprender.</p>
+             <div class="card-footer">
+              <img src="./images/about3.png"
+              alt="author image" />
+              <p>5 min</p>
+             </div>
+            </div>
+          </div>
+          <!--card back-->
+          <div class="card-side card-back">
+           <button class="btn">Leer más</button>
+          </div>
+        </div>
+        <!--end of single article-->
+         <!--single article-->
+       <div class="card">
+        <!--front of card-->
+        <div class="card-side card-front">
+          <img src="./images/blog3.jpg" alt="">
+          <div class="card-info">
+          <h4>Defensa cibernética</h4>
+          <p>La defensa cibernética es un mecanismo de defensa de redes informáticas que se centra en 
+            prevenir, detectar y proporcionar respuestas oportunas ante ataques o amenazas hacia la 
+            infraestructura e información.</p>
+           <div class="card-footer">
+            <img src="./images/about3.png"
+            alt="author image" />
+            <p>5 min</p>
+           </div>
+          </div>
+        </div>
+        <!--card back-->
+        <div class="card-side card-back">
+         <button class="btn">Leer más</button>
+        </div>
+      </div>
+      <!--end of single article-->
+       <!--single article-->
+       <div class="card">
+        <!--front of card-->
+        <div class="card-side card-front">
+          <img src="./images/blog4.jpg" alt="">
+          <div class="card-info">
+          <h4>Asistencia al trabajador cognitivo.</h4>
+          <p>Las profesiones médicas y legales, que dependen en gran medida de los conocimientos de los 
+            trabajadores, es donde los trabajadores utilizarán cada vez más la IA como herramienta de diagnóstico. </p>
+           <div class="card-footer">
+            <img src="./images/about3.png"
+            alt="author image" />
+            <p>5 min</p>
+           </div>
+          </div>
+        </div>
+        <!--card back-->
+        <div class="card-side card-back">
+         <button class="btn">Leer más</button>
+        </div>
+      </div>
+      <!--end of single article-->
+     </div>
+    </section>
     <!--end of  blog -->
     <!-- footer -->
-
-    <script src="./js/app.js"></script>
-  </body>
+    <footer class="footer">
+      <!--social icons-->
+     <ul class="social-icons">
+      <li>
+        <a href="https://www.twitter.com"
+        class="social-icon">
+         <i class="fab fa-facebook"></i>
+         </a>
+      </li>
+      <li>
+       <a href="https://www.twitter.com"
+       class="social-icon">
+        <i class="fab fa-linkedin"></i>
+        </a>
+     </li>
+     <li>
+       <a href="https://www.twitter.com"
+       class="social-icon">
+        <i class="fab fa-behance"></i>
+        </a>
+     </li>
+     <li>
+       <a href="https://www.twitter.com"
+       class="social-icon">
+        <i class="fab fa-github"></i>
+        </a>
+     </li>
+     <li>
+       <a href="https://www.twitter.com"
+       class="social-icon">
+        <i class="fab fa-instagram"></i>
+        </a>
+     </li>
+    </ul>
+    <p>&copy; <span id="date"></span> Alan Alemán. Todos los derechos reservados</p>
+    </footer>
+    <script src="./js/app.js"></script> 
 </html>
