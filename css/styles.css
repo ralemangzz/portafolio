@@ -433,6 +433,14 @@ Services
   text-align: center;
   transition: var(--transition);
 }
+.service-about{
+  background: var(--clr-primary-5);
+  padding: 3rem 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: var(--radius);
+  text-align: center;
+  transition: var(--transition);
+}
 .service-icon{
   font-size: 2rem;
   margin-bottom: 1.5rem;
@@ -442,18 +450,35 @@ Services
   height: 0.12rem;
   transition: var(--transition);
 }
+.service-about .underline{
+  width: 3rem;
+  height: 0.12rem;
+  transition: var(--transition);
+  color: #222;
+}
 .service p {
   transition: var(--transition);
+}
+.service-about p {
+  transition: var(--transition);
+  color: black;
 }
 .service:hover{
   background: var(--clr-primary-5);
   color: var(--clr-white);
 }
+.service-about:hover{
+  background: #222;
+  color: #fff;
+}
 .service:hover p{
   color: var(--clr-white);
 }
+.service-about:hover p{
+  color: #fff;
+}
 .service:hover .underline{
-  background: var(clr);
+  background: var(--clr-primary-5);
 }
 @media screen and (min-width:676px){
   .services-center{
@@ -966,3 +991,4 @@ Products Page
   grid-template-columns: repeat(auto-fill, minmax(330px,1fr));
   gap: 3rem 1rem;
 }
+
