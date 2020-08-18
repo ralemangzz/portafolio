@@ -404,8 +404,9 @@ About
 .about-img{
   justify-self: center;
 }
-.hero-photo{
+.hero-photo1{
   border-radius: 50%;
+  width: 20px;
 }
 @media screen and (min-width:992px){
   .about-center{
