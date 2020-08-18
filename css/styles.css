@@ -102,7 +102,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-1);
+  color: var(--clr-grey-5);
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -336,7 +336,7 @@ Hero
   margin-left: 0;
 }
 .hero-img{
-  display: none;
+  display: block;
 }
 .hero{
   background: var(--clr-primary-10);
