@@ -336,7 +336,7 @@ Hero
   margin-left: 0;
 }
 .hero-img{
-  display: block;
+  display: none;
 }
 .hero{
   background: var(--clr-primary-10);
@@ -403,6 +403,9 @@ About
 }
 .about-img{
   justify-self: center;
+}
+.hero-photo{
+  border-radius: 50%;
 }
 @media screen and (min-width:992px){
   .about-center{
