@@ -374,6 +374,7 @@ Hero
     right: -1rem;
     border-radius: var(--radius);
   }
+  
 }
 .hero-photo{
   max-width: 25rem;
@@ -415,9 +416,7 @@ About
   .about-img{
     position: relative;
   }
-  .about-img::before{
-    left: 0rem;
-  }
+  
   .about-info{
     align-self: center;
   }
