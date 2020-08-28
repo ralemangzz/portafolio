@@ -363,8 +363,7 @@ Hero
   .hero-center{
     grid-template-columns: 1fr 1fr;
   }
-  .hero-img::before,
-  .about-img::before{
+  .hero-img::before{
     content: "";
     position: absolute;
     width: 100%;
@@ -372,7 +371,7 @@ Hero
     border: 0.25rem solid var(--clr-primary-5);
     top: 1rem;
     right: -1rem;
-    border-radius: var(--radius);
+    
   }
   
 }
@@ -404,9 +403,15 @@ About
 }
 .about-img{
   justify-self: center;
+  width: 200px;
+  height: 200px;
+  background-color: var(--clr-primary-5);
+  border-radius: 50%;
+  overflow: hidden;
+  justify-content: center;
 }
 .hero-photo1{
-  border-radius: 50%;
+  border-radius: 40%;
   width: 20px;
 }
 @media screen and (min-width:992px){
